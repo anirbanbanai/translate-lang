@@ -13,7 +13,7 @@ export default function Home() {
     <main className='n w-3/4 mx-auto p-5'>
       <h2 className='text-4xl font-bold text-center'>Translate language</h2>
       <h3 className='text-3xl text-center'>Bangla || English</h3>
-      <div className='nn mt-4 mx-auto w-2/4 border-2 p-5'>
+      <div className='nn mt-4 mx-auto  md:w-2/4 border-2 p-5'>
         <select  onChange={(e) => handleClick(e)} className='w-2/4 mx-auto text-blue-500 font-semibold'>
           <option>Select Language</option>
           <option value={"eng"}>English</option>
